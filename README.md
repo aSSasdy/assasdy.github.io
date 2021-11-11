@@ -1,1 +1,1 @@
-# assasdy.githb.io
+# assasdy.github.io
