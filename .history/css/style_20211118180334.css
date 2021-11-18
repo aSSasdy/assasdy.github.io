@@ -1,0 +1,13 @@
+body {
+    background-color: lightsalmon;
+}
+p {
+    color: red;
+}
+#para1 {
+    color:blue;
+}
+*p,
+h1 {
+    color:lime;
+}
