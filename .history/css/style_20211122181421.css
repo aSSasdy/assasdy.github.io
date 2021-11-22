@@ -49,11 +49,6 @@ h1{
     position:absolute;
     top: 50%;
     left: 50%;
-    color:red;
-}
-.container {
-    position: relative;
-    color: white;
 }
 .topleft{
     position: absolute;

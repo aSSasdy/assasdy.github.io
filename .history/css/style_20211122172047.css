@@ -1,0 +1,22 @@
+body{
+    background-color: lightsalmon;
+}
+p{
+    color: red;
+}
+#para1{
+    color:blue;
+}
+p,
+h1{
+    color:lime;
+}
+.list li:before{
+    content: "→";
+}
+h2{
+    margin: 25px;
+}
+h1{
+    margin-left: 20px;
+}

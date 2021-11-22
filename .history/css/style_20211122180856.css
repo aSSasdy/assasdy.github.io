@@ -35,7 +35,7 @@ h1{
 }
 .block-1{
     width: 50%;
-    height: 500px;
+    height: 1000px;
     background: blueviolet;
     margin-left: auto;
     margin-right: auto;
@@ -49,15 +49,5 @@ h1{
     position:absolute;
     top: 50%;
     left: 50%;
-    color:red;
-}
-.container {
-    position: relative;
-    color: white;
-}
-.topleft{
-    position: absolute;
-    top: 30px;
-    left: 15px;
-    color: white;
+    transform: translate(-50%, -50%);
 }
