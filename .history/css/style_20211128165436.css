@@ -53,6 +53,3 @@ a:hover{
     text-decoration: none;
     background: linear-gradient(45deg, rgb(255, 244, 255), rgb(223, 80, 298));
 }
-h1,h2,h3,h4 {
-    font: PT Serif;
-}
