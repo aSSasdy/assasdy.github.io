@@ -89,11 +89,11 @@ button:hover{
     color:white;
 }
 img{
+    display: inline-block;
+    margin-left: 25%;
     height: 50%;
     width: 50%;
-    transition: 1s;
-    margin-top: 100px;
 }
 img:hover{
-    transform: scale(1.2);
+
 }

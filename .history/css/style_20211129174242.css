@@ -74,26 +74,5 @@ h1,h2,h3,h4 {
     border-bottom-left-radius: 25px;
     text-align: center;
     box-shadow: 10px 10px 5px grey;
-    outline: yellow 2px solid;
-    outline-offset: 10px;
-}
 
-button{
-    color:red;
-    border-radius: 10px;
-    margin-left: 50%;
-    transition: 2s ease;
-}
-button:hover{
-    background:black;
-    color:white;
-}
-img{
-    height: 50%;
-    width: 50%;
-    transition: 1s;
-    margin-top: 100px;
-}
-img:hover{
-    transform: scale(1.2);
 }

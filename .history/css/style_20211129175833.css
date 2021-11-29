@@ -89,6 +89,7 @@ button:hover{
     color:white;
 }
 img{
+    display: inline-block;
     height: 50%;
     width: 50%;
     transition: 1s;
