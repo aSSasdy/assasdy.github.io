@@ -1,0 +1,87 @@
+// @mixin border-radius($radius) { 
+//     -webkit-border-radius: $radius;
+//     -moz-border-radius: $radius;
+//     -ms-border-radius: $radius;
+//     border-radius: $radius;
+// }
+// .box-1 {
+//     @include border-radius(10px);
+// }
+
+.block-1 {
+    text-align: center;
+    width: 200px;
+    animation-duration: 2s;
+    animation-name: example;
+}
+
+@keyframes example {
+    from {
+        background: red;
+    }
+    to {
+        background: blue;
+    }
+}
+.block-2 {
+    display: inline-block;
+    position: fixed;
+    text-align: center;
+    width: 200px;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+    animation-name: example2;
+    animation-delay: 2s;
+}
+
+@keyframes example2 {
+    from {
+        background: red;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    25% {
+        background: blue;
+        margin-top: 200px;
+        margin-left: 0px;
+    }
+    50% {
+        background: green;
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+    75% {
+        background: yellow;
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    to{
+        background: red;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+.box {
+    position: absolute;
+    margin-top: 300px;
+}
+.box-1_header {
+    float: left;
+    background:grey;
+    width: 1000px;
+}
+.box-1_float-1 {
+    background: grey;
+    float: left;
+    width: 333px;
+}
+.box-1_float-2 {
+    background: grey;
+    float: left;
+    width: 333px;
+}
+.box-1_float-3 {
+    float: left;
+    background:grey;
+    width: 333px;
+}

@@ -1,4 +1,4 @@
-@mixin border-radius($radius) {
+@mixin border-radius($radius) { {}
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
       -ms-border-radius: $radius;
@@ -6,5 +6,5 @@
 }
 
 .box-1 { 
-    @include border-radius(10px);
+    @import border-radius();
 }
