@@ -126,7 +126,7 @@
 }
 .title-10 {
     position: absolute;
-    width: 100%;
+    width: 1920px;
     height: 0px;
     left: 0px;
     top: 109px;
@@ -138,28 +138,28 @@ border: 1px solid #FFFFFF;
 
 .main {
     display: flex;
-    height: 1435px;
-    width: auto;
+    height: 1920px;
+    width: 1920;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .main__rectangle-1 {
-    width: 60%;
-    height: 45%;
-    background: #F4F4F4;
+    width: 650px;
+    height: 1135px;
+    background: grey;
 }
 .main__rectangle-2 {
-    width: 40%;
-    height: 45%;
-    background: white;
+    width: 750px;
+    height: 785px;
+    background: grey;
 }
 .main__rectangle-3 {
-    width: 60%;
-    height: 55%;
-    background: white;
+    width: 650px;
+    height: 785px;
+    background: grey;
 }
 .main__rectangle-4 {
-    width: 40%;
-    height: 55%;
-    background: #F4F4F4;
+    width: 750px;
+    height: 785px;
+    background: grey;
 }

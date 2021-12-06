@@ -1,7 +1,6 @@
-// title
-
 .title {
-    width: auto;
+    position: absolute;
+    width: 1920px;
     height: 750px;
     background: linear-gradient(0deg, rgba(15, 72, 152, 0.6), rgba(15, 72, 152, 0.6)),
 }
@@ -11,37 +10,51 @@
     height: 43px;
     left: 405px;
     top: 33px;
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
     line-height: 42px;
+    /* identical to box height */
+    
+    
+    /* Accent 2 */
+    
     color: #0F4898;
 }
 .title-2 {
     position: absolute;
-    width: 64px;
-    height: 43px;
-    left: 489px;
-    top: 33px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 42px;
-    color: #FFFFFF;
+width: 64px;
+height: 43px;
+left: 489px;
+top: 33px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+
+
+color: #FFFFFF;
 }
 .title-3 {
     position: absolute;
     width: 54px;
     height: 16px;
     left: 702px;
-    top: 47px; 
+    top: 47px;
+    
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: 16px; 
+    line-height: 16px;
+    /* identical to box height */
+    
+    
     color: #FFFFFF;
 }
 .title-4 {
@@ -49,38 +62,50 @@
     width: 84px;
     height: 16px;
     left: 776px;
-    top: 47px; 
+    top: 47px;
+    
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 16px;
+    /* identical to box height */
+    
+    
     color: #FFFFFF;
 }
 .title-5 {
     position: absolute;
-    width: 63px;
-    height: 16px;
-    left: 880px;
-    top: 47px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 16px;
-    color: #FFFFFF;
+width: 63px;
+height: 16px;
+left: 880px;
+top: 47px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
 }
 .title-6 {
     position: absolute;
     width: 170px;
     height: 16px;
     left: 963px;
-    top: 47px; 
+    top: 47px;
+    
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 16px;
+    /* identical to box height */
+    
+    
     color: #FFFFFF;
 }
 .title-7 {
@@ -89,11 +114,15 @@
     height: 16px;
     left: 1153px;
     top: 47px;
+    
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: 16px; 
+    line-height: 16px;
+    /* identical to box height */
+    
+    
     color: #FFFFFF;
 }
 .title-8 {
@@ -101,14 +130,26 @@
     width: 102px;
     height: 11px;
     left: 1413px;
-    top: 38px;  
+    top: 38px;
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    text-align: right;  
+    text-align: right;
+    
     color: #FFFFFF;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
 }
 .title-9 {
     position: absolute;
@@ -126,40 +167,17 @@
 }
 .title-10 {
     position: absolute;
-    width: 100%;
-    height: 0px;
-    left: 0px;
-    top: 109px;
+    width: 110px;
+height: 11px;
+left: 1405px;
+top: 59px;
 
-border: 1px solid #FFFFFF;
-}
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: right;
 
-// main
-
-.main {
-    display: flex;
-    height: 1435px;
-    width: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.main__rectangle-1 {
-    width: 60%;
-    height: 45%;
-    background: #F4F4F4;
-}
-.main__rectangle-2 {
-    width: 40%;
-    height: 45%;
-    background: white;
-}
-.main__rectangle-3 {
-    width: 60%;
-    height: 55%;
-    background: white;
-}
-.main__rectangle-4 {
-    width: 40%;
-    height: 55%;
-    background: #F4F4F4;
+color: #FFFFFF;
 }
