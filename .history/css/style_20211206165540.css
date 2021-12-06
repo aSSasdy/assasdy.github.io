@@ -1,0 +1,7 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 100px;
+    background-color:grey; 
+}

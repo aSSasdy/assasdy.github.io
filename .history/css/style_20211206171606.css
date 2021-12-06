@@ -9,17 +9,14 @@
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    text-align: center;
 }
 .box-1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     height: 100px;
-    width: 940px;
+    width: 900px;
     background-color: lightgray;
 }
 .box-2 {
-    margin-left: 15px;
     height: 300px;
     width: 290px;
     background-color:lightgray;
@@ -33,11 +30,4 @@
     height: 300px;
     width: 290px;
     background-color:lightgray;
-}
-.box-5 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 100px;
-    width: 940px;
-    background-color: lightgray;
 }

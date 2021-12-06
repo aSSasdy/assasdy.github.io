@@ -1,135 +1,20 @@
-.block-1 {
-  text-align: center;
-  width: 200px;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-name: example;
-          animation-name: example;
+.list {
+  font-size: 3rem;
+  padding: 50px;
+  background: lightcoral;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-@-webkit-keyframes example {
-  from {
-    background: red;
-  }
-  to {
-    background: blue;
-  }
-}
-
-@keyframes example {
-  from {
-    background: red;
-  }
-  to {
-    background: blue;
-  }
-}
-
-.block-2 {
-  position: fixed;
-  text-align: center;
-  width: 200px;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-name: example2;
-          animation-name: example2;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-@-webkit-keyframes example2 {
-  from {
-    background: red;
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-  25% {
-    background: blue;
-    margin-top: 200px;
-    margin-left: 0px;
-  }
-  50% {
-    background: green;
-    margin-left: 200px;
-    margin-top: 200px;
-  }
-  75% {
-    background: yellow;
-    margin-left: 200px;
-    margin-top: 0px;
-  }
-  to {
-    background: red;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-}
-
-@keyframes example2 {
-  from {
-    background: red;
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-  25% {
-    background: blue;
-    margin-top: 200px;
-    margin-left: 0px;
-  }
-  50% {
-    background: green;
-    margin-left: 200px;
-    margin-top: 200px;
-  }
-  75% {
-    background: yellow;
-    margin-left: 200px;
-    margin-top: 0px;
-  }
-  to {
-    background: red;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-}
-
-.box {
-  width: 1000px;
-  display: block;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 300px;
-  border-width: 3px;
-}
-
-.box-1_header {
-  width: 100%;
-  position: relative;
-  float: left;
-  background: grey;
-}
-
-.box-1_float-1 {
-  width: 33%;
-  position: relative;
-  background: grey;
-  float: left;
-}
-
-.box-1_float-2 {
-  width: 33px;
-  position: relative;
-  background: grey;
-  float: left;
-}
-
-.box-1_float-3 {
-  width: 33%;
-  position: relative;
-  float: left;
-  background: grey;
+.list__item {
+  height: 100px;
+  width: 100px;
+  background: blue;
+  margin: 10px;
 }
 /*# sourceMappingURL=style.css.map */

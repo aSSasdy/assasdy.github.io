@@ -1,0 +1,90 @@
+// @mixin border-radius($radius) { 
+//     -webkit-border-radius: $radius;
+//     -moz-border-radius: $radius;
+//     -ms-border-radius: $radius;
+//     border-radius: $radius;
+// }
+// .box-1 {
+//     @include border-radius(10px);
+// }
+
+.block-1 {
+    background:grey;
+    height: 200px;
+    text-align: center;
+    width: 200px;
+    animation-duration: 2s;
+    animation-name: example;
+}
+
+@keyframes example {
+    from {
+        background: red;
+    }
+    to {
+        background: blue;
+    }
+}
+.block-1::after{
+    margin: 10px;
+}
+.block-2 {
+    height: 200px;
+    text-align: center;
+    width: 200px;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+    animation-name: example2;
+    animation-delay: 2s;
+}
+
+@keyframes example2 {
+    from {
+        background: red;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    25% {
+        background: blue;
+        margin-top: 200px;
+        margin-left: 0px;
+    }
+    50% {
+        background: green;
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+    75% {
+        background: yellow;
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    to{
+        background: red;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+
+.box {
+}
+.header {
+    padding: 2.1rem 0 1.5rem;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #E6E6E6;
+    background: #fff;
+    z-index: 99;
+    margin-bottom: 5.5rem;
+    overflow: hidden;
+}
+.main {
+}
+.box-1 {
+}
+.box-2 {
+}
+.box-3 {
+}
+.footer {
+}
