@@ -1,0 +1,21 @@
+header {
+    margin-top: 33px;
+    margin-left: 405px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-menu {
+    flex-grow: 1;
+}
+.header-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+}
+.header-menu li {
+    margin-right: 20px;
+}

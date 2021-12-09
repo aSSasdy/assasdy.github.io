@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    min-height: 1000px;
+    background: lightblue;
+}
+
+.header-menu {
+    flex-grow: 1;
+}
+.header-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+}
+.header-menu li {
+    margin-right: 20px;
+}
+.header-menu li:last-child {
+    margin-right: 0;
+}
+.header-menu a {
+    padding: 8px 10px;
+}
+.header-logo {
+    margin: 30px;
+}

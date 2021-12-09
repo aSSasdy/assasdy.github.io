@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    min-height: 1000px;
+    background: lightblue;
+    color: white;
+}
+
+.header-menu {
+    flex-grow: 1;
+}
+.header-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 30px;
+    padding: 0;
+}
+.header-menu li {
+    margin-right: 20px;
+    color: white;
+}
+.header-menu li:last-child {
+    margin-right: 0;
+}
+.header-menu a {
+    padding: 8px 10px;
+}
+.header-logo {
+    margin: 30px;
+}
+.header-contacts {
+    margin: 30px;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo a {
+    font-size: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+}
+
+#cryo {
+    color: #0F4898;
+}
+
+#gaz {
+    color:white;
+}

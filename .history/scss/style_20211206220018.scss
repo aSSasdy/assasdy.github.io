@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    min-height: 1000px;
+    background: lightblue;
+    color: white;
+}
+
+.header-menu {
+    flex-grow: 1;
+}
+.header-menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 40px;
+    padding: 0;
+}
+.header-menu li {
+    margin-right: 20px;
+}
+.header-menu li:last-child {
+    margin-right: 0;
+}
+.header-menu a {
+    padding: 8px 10px;
+}
+.header-logo {
+    margin: 30px;
+}
+.header-contacts {
+    margin: 30px;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo a {
+    font-size: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+}
+
+#cryo {
+    color: #0F4898;
+}
+
+#gaz {
+    color:white;
+}
+
+.header-menu li a {
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.header-contacts a {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.header-logo::after{
+    height: 0px;
+    content: "  gfrsdg ";
+    border:1px solid white;
+}
+
+
+

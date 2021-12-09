@@ -1,0 +1,138 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    height: 600px;
+    background: url("/img/unnamed.jpg");
+    color: white;
+}
+
+.header-menu {
+    flex-grow: 1;
+}
+.header-menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 40px;
+    padding: 0;
+}
+.header-menu li {
+    margin-right: 20px;
+}
+.header-menu li:last-child {
+    margin-right: 0;
+}
+.header-menu a {
+    padding: 8px 10px;
+}
+.header-logo {
+    margin: 30px;
+}
+.header-contacts {
+    margin: 30px;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo a {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#cryo {
+    color: #0F4898;
+}
+
+#gaz {
+    color:white;
+}
+
+.header-menu li a {
+    color: white;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.header-contacts a {
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.underline {
+    height: 0px;
+    width: 100%;
+    border: 1px solid white;
+    margin-bottom: 90%;
+}
+
+main {
+    background-color: #E5E5E5;
+}
+
+h1,
+h2 {
+    padding-top: 100px;
+    margin-left: 200px;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+#main__p-1 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 200px;
+}
+
+.main__flexbox-1 {
+    display: flex;
+}
+
+.flexbox-1__block-1 {
+    margin: 40px 40px 40px 200px ;
+    padding: 30px 40px 6px 40px;
+    width: 428px;
+    height: 200px;
+    background-color: white;
+    font-size: 13px;
+    font-size: 13px;
+    line-height: 22px;
+    z-index: 1;
+}
+
+.flexbox-1__img-1 {
+    width: 427px;
+    height: 450px;
+    margin-top: -60px;
+    margin-left: -100px;
+    z-index: 0;
+}
+
+.main__flexbox-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+#main__p-2 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 200px;
+}
+
+.main__button-news {
+    color: white;
+    width: 139px;
+    height: 40px;
+    border: 1px solid #0F4898;
+    background: #0F4898;
+    margin: 100px 230px 40px 0;
+}
+
+
