@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Monsterrat;
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(/fonts/Roboto-Regular.ttf);
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,15 +20,21 @@ header {
       -ms-flex-pack: start;
           justify-content: flex-start;
   height: 600px;
-  background: url("/img/depositphotos_28448695-stock-photo-industrial-plant-at-night.jpg") no-repeat center fixed;
+  background: url("/img/Rectangle.jpg") no-repeat center fixed;
   background-size: cover;
   color: white;
 }
 
-.header-menu {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
 }
 
 .header-menu ul {
@@ -63,24 +79,28 @@ a {
   font-weight: 900;
 }
 
-#cryo {
+.logo-1 {
   color: #0F4898;
+  font-family: Roboto;
 }
 
-#gaz {
+.logo-2 {
   color: white;
+  font-family: Roboto;
 }
 
 .header-menu li a {
   color: white;
   font-size: 13px;
   line-height: 16px;
+  font-family: Monsterrat;
 }
 
 .header-contacts a {
   color: white;
   font-size: 12px;
   line-height: 14px;
+  font-family: Roboto;
 }
 
 .underline {
@@ -90,23 +110,20 @@ a {
   margin-bottom: 90%;
 }
 
-main {
-  background-color: #E5E5E5;
-}
-
-h1,
-h2 {
+.title-1 {
   padding-top: 100px;
   margin-left: 200px;
   font-size: 30px;
   line-height: 35px;
+  font-family: Roboto;
 }
 
-#main__p-1 {
+.undertitle-1 {
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   margin-left: 200px;
+  font-family: Roboto;
 }
 
 .main__flexbox-1 {
@@ -116,18 +133,16 @@ h2 {
 }
 
 .flexbox-1__block-1 {
-  margin: 40px 40px 40px 200px;
-  padding: 30px 40px 6px 40px;
-  width: 428px;
-  height: 200px;
+  margin: 40px 40px 100px 200px;
+  padding: 40px;
   background-color: white;
-  font-size: 13px;
   font-size: 13px;
   line-height: 22px;
   z-index: 1;
+  font-family: Monsterrat;
 }
 
-.flexbox-1__img-1 {
+.offer__slider-wrapper {
   width: 427px;
   height: 450px;
   margin-top: -60px;
@@ -150,19 +165,45 @@ h2 {
       flex-shrink: 0;
 }
 
-#main__p-2 {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  margin-left: 200px;
-}
-
 .main__button-news {
   color: white;
   width: 139px;
   height: 40px;
   border: 1px solid #0F4898;
   background: #0F4898;
-  margin: 100px 230px 40px 0;
+  margin: 100px 0 40px 0;
+  font-family: Roboto;
+}
+
+.container-1 {
+  max-width: 1100px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+}
+
+main {
+  background-color: #E5E5E5;
+}
+
+.button__btn-prev {
+  min-height: 40px;
+  min-width: 40px;
+}
+
+.button__btn-next {
+  min-height: 40px;
+  min-width: 40px;
+}
+
+.button__btn-prev {
+  margin-left: 200px;
+}
+
+.offer__slide img {
+  width: 427px;
+  height: 450px;
 }
 /*# sourceMappingURL=style.css.map */

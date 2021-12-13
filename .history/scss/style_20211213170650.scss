@@ -87,6 +87,8 @@ a {
     margin-bottom: 90%;
 }
 
+
+
 .title-1 {
     padding-top: 100px;
     margin-left: 200px;
@@ -117,7 +119,7 @@ a {
     font-family: Monsterrat;
 }
 
-.offer__slider-wrapper {
+.flexbox-1__img-1 {
     width: 427px;
     height: 450px;
     margin-top: -60px;
@@ -138,7 +140,7 @@ a {
     height: 40px;
     border: 1px solid #0F4898;
     background: #0F4898;
-    margin: 100px 0 40px 0;
+    margin: 100px 75px 40px 0;
     font-family: Roboto;
 }
 
@@ -151,25 +153,6 @@ a {
 
 main{
     background-color: #E5E5E5;
-}
-
-.button__btn-prev {
-    min-height: 40px;
-    min-width: 40px;
-}
-
-.button__btn-next {
-    min-height: 40px;
-    min-width: 40px;
-}
-
-.button__btn-prev {
-    margin-left: 200px;
-}
-
-.offer__slide img {
-    width: 427px;
-    height: 450px;
 }
 
 
