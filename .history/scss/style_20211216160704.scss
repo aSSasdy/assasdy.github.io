@@ -9,6 +9,7 @@
 header {
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-start;
     height: 600px;
     background: url("/img/Rectangle.jpg") no-repeat center fixed; 
     background-size: cover;
@@ -127,6 +128,7 @@ a {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .main__button-news {
@@ -135,12 +137,8 @@ a {
     color: white;
     border: 1px solid #0F4898;
     background: #0F4898;
-    margin: 100px 0 40px 785px;
+    margin: 100px 0 40px 700px;
     font-family: Roboto;
-}
-
-.main__button-news:hover {
-    background:red;
 }
 
 .container-1 {
@@ -150,39 +148,8 @@ a {
     padding: 0 15px;
 }
 
-.box-1 {
-    position: relative;
-    padding-bottom: 100px;
-}
-
-.box-1::before{
-    content: "";
-    display: block;
-    position: absolute;
+main{
     background-color: #E5E5E5;
-    z-index: -1;
-    width: 60%;
-    left: 0;
-    top: 0;
-    bottom: 0;
-}
-
-.box-2 {
-    position: relative;
-    background-color: #E5E5E5;
-    z-index: -2;
-}
-
-.box-2::before{
-    content: "";
-    display: block;
-    position: absolute;
-    background-color: white;
-    z-index: -1;
-    width: 60%;
-    left: 0;
-    top: 0;
-    bottom: 0;
 }
 
 .button__btn-prev {
@@ -211,111 +178,12 @@ li a:hover {
     padding-top: 10px;
 }
 
-.main__flexbox-3 {
-    display: flex;
-    flex-flow: nowrap;
-    flex-shrink: 1;
-    justify-content: space-between;
-    padding-bottom: 100px;
-}
-
-.flexbox-3__item {
-    background-color: white;
-    width: 30%;
-    box-shadow: 0 0 1px;
-    display: flex;
-    flex-flow:column nowrap;
-}
-
-.flexbox-3__item div img {
-    width: 100%;
-    height: 85%;
-}
-
-.data {
-    padding: 0 10px 0 10px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 11px;
-    line-height: 13px;
-    letter-spacing: 0.05em;
-}
-
-.item__title {
-    padding: 15px 10px 0 10px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.03em;
-}
-
-.item__text {
-    padding: 10px;
-    padding-bottom: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 11px;
-    line-height: 14px;
-    letter-spacing: 0.05em;
-}
-
-.item__button {
-    display: inline-block;
-    padding: 15px;
-    color: white;
-    border: 1px solid #0F4898;
-    background: #0F4898;
-    font-family: Roboto;
+.container-2 {
+    max-width: 1100px;
     margin: 0 auto;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    align-items: center;
+    padding: 0 15px;
 }
-
-.item__button:hover {
-    background:red;
-}
-
-footer {
-    background: #323232;
-}
-
-.footer__flexbox-1 {
-    padding: 40px 0 22px 0;
-}
-
-.footer__flexbox-1 ul {
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: center;
-}
-
-.footer__flexbox-1 ul li a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.05em;
-    padding-right: 25px;
-    color: #FFFFFF;
-}
-
-.footer__text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 13px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    padding-bottom: 40px;
-    color: #DCDCDC;
-}
-
 
 
 

@@ -152,7 +152,6 @@ a {
 
 .box-1 {
     position: relative;
-    padding-bottom: 100px;
 }
 
 .box-1::before{
@@ -216,7 +215,7 @@ li a:hover {
     flex-flow: nowrap;
     flex-shrink: 1;
     justify-content: space-between;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
 .flexbox-3__item {
@@ -283,37 +282,9 @@ footer {
     background: #323232;
 }
 
-.footer__flexbox-1 {
-    padding: 40px 0 22px 0;
-}
-
 .footer__flexbox-1 ul {
     display: flex;
     flex-flow: nowrap;
-    justify-content: center;
-}
-
-.footer__flexbox-1 ul li a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.05em;
-    padding-right: 25px;
-    color: #FFFFFF;
-}
-
-.footer__text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 13px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    padding-bottom: 40px;
-    color: #DCDCDC;
 }
 
 
